@@ -66,7 +66,7 @@ function worker2(arr) {
     a = Math.abs(min) - Math.abs(max);
   }
   else {
-    a = Math.abs(max) - Math.abs(min);
+    a = Math.abs(max - min);
   }
   return Math.abs(a);
 };
