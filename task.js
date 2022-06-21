@@ -61,12 +61,5 @@ function worker2(arr) {
     }
   };
 
-  let a = 0;
-  if (Math.abs(max) < Math.abs(min)) {
-    a = Math.abs(min) - Math.abs(max);
-  }
-  else {
-    a = Math.abs(max - min);
-  }
-  return Math.abs(a);
+  return Math.abs(max - min);
 };
